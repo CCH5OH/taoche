@@ -1,0 +1,131 @@
+.Central_advertising {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 1200px;
+}
+.Central_advertising_background{
+	background: #f8f8f8;
+}
+
+/*左侧广告s*/
+
+.Central_advertising h2 {
+	font-size: 22px;
+	line-height: 34px;
+	color: #2f3540;
+	text-align: center;
+	margin-bottom: 30px;
+	width: 1200px;
+}
+
+.Central_advertising .enter {
+	position: relative;
+	width: 288px;
+	height: 414px;
+	background:url(../../images/Central_advertising/bd-banner.01.png) no-repeat;
+}
+
+.Central_advertising .enter_btn {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background: #bca6a8;
+}
+
+
+/*左侧广告e*/
+
+.Central_advertising .central_list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 912px;
+}
+
+.central_list>li {
+	width: 440px;
+	height: 200px;
+	/*margin-right: 10px;*/
+	margin-left: 16px;
+	margin-bottom: 16px;
+	position: relative;
+}
+.central_list li:hover{
+	outline: 1px solid #ff6402;
+}
+.central_list .list_img {
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+	width: 180px;
+	height: 120px;
+	overflow: hidden;
+}
+
+.central_list .list_img>img {
+	display: block;
+	width: 100%;
+}
+
+.list_txt .tit {
+	width: 305px;
+	height: 24px;
+	padding: 16px 0 0 16px;
+	color: #2f3540;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.list_txt .tax {
+	width: 300px;
+	margin-top: 4px;
+	margin-bottom: 24px;
+	padding-left: 16px;
+	font-size: 14px;
+	line-height: 22px;
+	height: 22px;
+	color: #b0b3b4;
+}
+
+.central_list .list_price {
+	width: 170px;
+	padding-left: 16px;
+	padding-top: 16px;
+}
+
+.central_list .list_price .downpayment,
+.central_list .list_price .monthly-payment {
+	position: relative;
+	margin-bottom: 4px;
+	line-height: 28px;
+}
+
+.central_list .list_price dt {
+	float: left;
+	clear: left;
+	width: 4em;
+	height: 28px;
+	text-align: justify;
+	color: #2f3540;
+	font-size: 14px;
+}
+
+.central_list .list_price dd {
+	margin-left: 60px;
+	text-align: right;
+	color: #ff6402;
+	font-size: 18px;
+}
+
+
+/*右侧广告s*/
+
+
+/*右侧广告e*/

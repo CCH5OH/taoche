@@ -1,0 +1,419 @@
+.loan-top-pic{
+	height: 410px;
+    display: block;
+    background: url(../img/jrcp_top_ad.jpg) no-repeat center top;
+    margin-bottom: 40px;
+}
+.container{
+	width: 1200px;
+    margin: 0 auto;
+}
+/*一证通start*/
+.loan-list{
+	height: 353px;
+    background-color: #f5f7fb;
+    position: relative;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+.loan-tit{
+	width: 260px;
+    height: 353px;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+.loan-tit-bg5 {
+    background: url(../img/jrcp_bg5.jpg) no-repeat center center;
+}
+.loan-mid{
+    width: 620px;
+    float: left;
+    margin-top: 30px;
+}
+.loan-Shoufu{
+	display: table;
+	height: 100px;
+}
+.loan-Shoufu li{
+    padding-top: 20px;
+    width: 145px;
+    text-align: center;
+    float: left;
+    font-size: 18px;
+}
+.loan-Shoufu li p{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 45px;
+}
+.loan-explain{
+	height: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #dfe6f3;
+    margin-top: 30px;
+}
+.loan-explain li{
+	float: left;
+    margin-left: 45px;
+    width: 190px;
+    padding-left: 70px;
+    position: relative;
+}
+.loan-explain li em.loan-explain-bgd {
+    background-color: #bb9df9;
+}
+.loan-explain li em {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.loan-explain li h4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    line-height: 25px;
+}
+.loan-explain li p {
+    font-size: 14px;
+    color: #666;
+    line-height: 25px;
+}
+.loan-count {
+    line-height: 22px;
+    padding-top: 30px;
+    border-top: 1px solid #dfe6f3;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #999;
+}
+.loan-but {
+    float: left;
+    height: 290px;
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 250px;
+    border-left: 1px solid #dfe6f3;
+}
+.loan-but p {
+    text-align: center;
+    margin-top: 107px;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.loan-but span {
+    margin-left: 60px;
+}
+.btn {
+    font-family: microsoft yahei;
+    display: inline-block;
+}
+.btn-xs a {
+    height: 40px;
+    line-height: 38px;
+    width: 140px;
+    border-radius: 3px;
+    display: block;
+    color: #fff;
+    background: #fd9933;
+    border: 1px solid #fd9933;
+    font-size: 16px;
+    text-align: center;
+}
+.btn-primary a:hover {
+    background: #ff8d03;
+    border: 1px solid #ff8d03;
+}
+/*一证通end*/
+/*极速贷start*/
+.loan-tit-bg2{
+	background: url(../img/jrcp_bg2.jpg) no-repeat center center;
+}
+.loan-explain li em.loan-explain-bga {
+    background-color: #7eabea;
+}
+/*极速贷end*/
+/*开鑫融start*/
+.loan-tit-bg3{
+	background: url(../img/jrcp_bg3.jpg) no-repeat center center;
+}
+.loan-explain li em.loan-explain-bgb {
+    background-color: #e7b978;
+}
+/*开鑫融end*/
+/*两证通start*/
+.loan-tit-bg9{
+	background: url(../img/jrcp_bg9.jpg) no-repeat center center;
+}
+.loan-explain li em.loan-explain-bgf {
+    background-color: #eb9595;
+}
+/*两证通end*/
+/*定制方案start*/
+.loan-list-customized {
+    height: 169px;
+}
+.loan-list-customized .loan-tit {
+    height: 169px;
+    margin-right: 80px;
+}
+.loan-tit-bg6{
+	background: url(../img/jrcp_bg6.jpg) no-repeat center center;
+}
+.loan-customized-mid {
+    width: 605px;
+    float: left;
+    display: block;
+    margin-top: 30px;
+}
+.loan-customized-mid p {
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.loan-customized-mid .form-input {
+	float: left;
+    height: 40px;
+    margin-top: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 38px;
+    vertical-align: middle;
+    margin-right: 20px;
+    color: #888;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+.form-w350 {
+    width: 350px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+.btn-xsm a{
+    height: 40px;
+    line-height: 38px;
+    width: 90px;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+.btn-primary a{
+	color: #fff;
+	background: #fd9933;
+	border: 1px solid #fd9933;
+}
+.form-error-dowm {
+    line-height: 16px;
+    font-size: 14px;
+    color: #ed1b23;
+    display: table;
+    padding-top: 5px;
+    width: 100%;
+}
+.loan-list-customized .loan-but {
+    height: 100px;
+    padding-top: 25px;
+    margin-left: 0;
+}
+.loan-list-customized .loan-but p {
+    text-align: left;
+    padding-left: 60px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.loan-list-customized .loan-but p em {
+    color: #fd9933;
+}
+/*定制方案end*/
+/*问答start*/
+.title-s-size {
+    height: 50px;
+    font-size: 20px;
+    border-bottom: 1px solid #e9e9e9;
+    display: block;
+}
+.loan-answers .title-s-size h4 {
+    font-size: 24px;
+    float: left;
+}
+.loan-answers-list {
+    width: 1200px;
+    overflow: hidden;
+}
+.loan-answers-list li {
+    width: 1230px;
+    height: 170px;
+    overflow: hidden;
+    border-top: 1px solid #e9e9e9;
+    margin-top: -1px;
+}
+.loan-answers-list li dl {
+    width: 570px;
+    margin-right: 30px;
+    float: left;
+    margin-top: 26px;
+}
+.loan-answers-list li dl dt {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.loan-answers-list li dl dt em {
+    color: #fd9933;
+}
+.loan-answers-list li dl dd {
+    font-size: 14px;
+    color: #999;
+    line-height: 30px;
+}
+/*问答end*/
+
+
+/*申请贷款start*/
+.popover-md {
+    width: 650px;
+}
+.popover {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(66,132,217,0.3);
+    border: 1px solid #d9d9d9;
+}
+.popover-tit {
+    padding-left: 20px;
+    height: 60px;
+    line-height: 60px;
+    color: #333;
+    border-bottom: 1px solid #d9d9d9;
+}
+.popover-tit h3 {
+    font-size: 20px;
+    font-family: "microsoft yahei";
+    display: inline;
+    float: left;
+    margin-right: 5px;
+}
+.popover-tit i {
+    font-size: 14px;
+    color: #999;
+    margin-left: 15px;
+}
+.popover-close {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    right: 8px;
+    top: 22px;
+    z-index: 10;
+}
+.popover-close a {
+    width: 0;
+    padding-left: 30px;
+    height: 20px;
+    font-size: 0;
+    overflow: hidden;
+    line-height: 0;
+    background: url(../img/bd_bg1.png) -80px -33px;
+    display: block;
+}
+.form-sm {
+    position: relative;
+}
+.popover-apply-loan {
+    padding: 30px 0 10px 110px;
+}
+.popover .form-sm .form-group {
+    top: 0;
+}
+.popover-apply-loan .form-group {
+    margin-bottom: 30px;
+}
+.form-sm .form-group {
+	position: relative;
+    min-height: 40px;
+    padding-left: 70px;
+    display: table;
+}
+.form-sm .form-name {
+	position: absolute;
+	text-align: right;
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    font-size: 16px;
+    left: -30px;
+    top: 0;
+    color: #333;
+    display: block;
+    z-index: 10;
+}
+.form-sm .form-input {
+    height: 40px;
+    line-height: 20px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+    border-radius: 3px;
+    color: #888;
+    font-size: 16px;
+    float: left;
+    margin-right: 10px;
+}
+.form-w350 {
+    width: 350px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+.form-w200 {
+    width: 200px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+#btnSubmit1 {
+    margin-right: 10px;
+}
+.btn-lesser a{
+	color: #666;
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+}
+.btn-lesser a:hover {
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #fd9933;
+    color: #fd9933;
+}
+/*申请贷款end*/
+/*经营许可证编号start*/
+.ft-copy{
+	text-align: center;
+    color: #b0b3b4;
+    line-height: 18px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background: #eee;
+}
+.ft-copy span{
+	display: inline-block;
+    vertical-align: middle;
+}
+.ft-copy img{
+	display: inline-block;
+    vertical-align: middle;
+}
+/*经营许可证编号end*/

@@ -1,0 +1,148 @@
+.Bottom_advertising {
+	padding-top: 40px;
+	margin-bottom: 40px;
+	width: 1200px;
+	height: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Bottom_advertising h2 {
+	font-size: 22px;
+	line-height: 34px;
+	color: #2f3540;
+	text-align: center;
+	margin-bottom: 30px;
+	width: 1200px;
+}
+
+
+/*清单s*/
+
+.Bottom_advertising .hire_purchase {
+	/*width: 1200px;*/
+	width: 1216px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.hire_purchase li {
+	width: 288px;
+	margin-right: 12px;
+	margin-bottom: 16px;
+}
+
+.hire_purchase li a {
+	display: block;
+	height: 318px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+.hire_purchase li a:hover {
+	border-color: #ff6402;
+}
+
+.hire_purchase .list_txt {
+	font-size: 16px;
+	color: #2f3540;
+	line-height: 24px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.hire_purchase .list_img {
+	width: 210px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+.hire_purchase .list_img>img {
+	display: block;
+	width: 100%;
+}
+
+.hire_purchase .list_price {
+	margin-top: 20px;
+	line-height: 28px;
+	color: #2f3540;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.hire_purchase .list_price dt {
+	clear: both;
+	float: left;
+	/*width: 60%;*/
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.hire_purchase .list_price dd {
+	float: right;
+	/*width: 40%;*/
+	text-align: right;
+	font-size: 18px;
+	color: #ff6402;
+	margin-bottom: .13333rem;
+}
+
+.hire_purchase .list_price .txt {
+	float: left;
+	width: 60px;
+	font-size: 16px;
+	text-align: justify;
+	height: 28px;
+	overflow: hidden;
+}
+
+.hire_purchase .list_price .txt:after {
+	content: " ";
+	display: inline-block;
+	width: 100%;
+	height: 0;
+	line-height: 0;
+}
+
+.hire_purchase .list_price .num {
+	float: left;
+	margin-left: 6px;
+	font-size: 14px;
+}
+
+
+/*清单e*/
+
+
+/*全部车源s*/
+
+.All_cars {
+	margin-top: 14px;
+	font-size: 16px;
+	line-height: 34px;
+	text-align: center;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.All_cars a {
+	display: inline-block;
+	padding: 0 50px;
+	color: #2f3540;
+	font-size: 16px;
+	line-height: 34px;
+	text-align: center;
+}
+.All_cars a:hover {
+	color: #ff6402;
+}
+
+.All_cars a span {
+	padding-right: 20px;
+	background:url(../../images/Bottom_advertising/btm.png) no-repeat 100%;
+}
+
+
+/*全部车源e*/

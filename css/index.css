@@ -1,0 +1,1145 @@
+/*顶部栏*/
+html,body,ul,li,div{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #777777;
+    font-size: 12px;
+    text-decoration: none;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.wz1{
+    color: #FF6402;
+}
+.all{
+    width: 100%;
+    min-width: 1200px;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top{
+    width: 100%;
+    height: 36px;
+    background-color: #F8F8F8;
+}
+.top a{
+    display: block;
+    line-height: 19px;
+    float: left;
+    margin-left: 4px;
+}
+.top img{
+    width: 16px;
+    float: left;
+    margin: 0 3px;
+}
+.top img.xjh{
+    width: 10px;
+    float: left;
+    margin: 4px 3px;
+}
+#dll{
+    cursor: pointer;
+}
+.top img.phone{
+    width: 20px;
+    float: left;
+    margin: 0 3px;
+}
+.top .homepage{
+    width: 77px;
+    height: 18px;
+    float: left;
+    cursor: pointer;
+    padding-top: 8px;
+}
+.top .homepage:hover a{
+    color: #FF6402;
+}
+.top ul.homepage_uu{
+    float: right;
+    width: 545px;
+    height: 46px;
+    display: flex;
+}
+.top ul.homepage_uu li:nth-of-type(1){
+    padding-top: 8px;
+    padding-right: 15px;
+}
+.top .homepage_wzr{
+    padding-top: 8px;
+    padding-right: 15px;
+}
+.top ul.homepage_uu li ul{
+    width: 103px;
+    background-color:#F8F8F8;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+}
+.top ul.homepage_uu li ul li{
+    width: 90px;
+    height: 28px;
+}
+.top ul.homepage_uu li ul li.homepage_xl{
+    padding-left: 5px;
+    width: 100px;
+}
+.top ul.homepage_uu li ul li.homepage_xl a{
+    margin-top: 5px;
+}
+.top ul.homepage_uu li ul li.homepage_xl:hover{
+    background-color: #F8F8F8;
+    color: #777777;
+}
+.xl_s{
+    height: 36px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.xl_s:hover{
+    overflow: visible;
+}
+.xl_s:hover li{
+    background-color: white;
+    border: 1px #E5E5E5;
+    border-style: none solid none solid;
+}
+.xl_s:hover a.xl_a{
+    color: #FF6402;
+}
+.top ul li.homepage_wzr{
+        margin-left: 10px;
+}
+.top ul li span.wzr{
+    font-size: 16px;
+}
+
+
+
+
+.second{
+    width: 100%;
+    height: 59px;
+    padding: 32px 0;
+}
+.second img{
+    float: left;
+}
+.second .second-address{
+    width: 77px;
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+    float: left;
+    margin-top: 22px;
+    margin-left: 25px;
+    position: relative;
+}
+hr{
+    color: #DDDDDD;
+    width:700px;
+    margin-top: 21px;
+}
+.citylist_sf{
+    width: 30px;
+    height: 20px;
+    float: left;
+    font-size: 14px;
+    color: #777777;
+    margin: 12px 12px 2px 10px;
+    line-height: 20px;
+}
+.citylist ul.citylist_zm{
+    float: left;
+    margin-top:5px;
+    width: 580px;
+    height: 28px;
+    border-bottom: 1px solid #FF6402;
+    margin-right: 68px;
+}
+.citylist_zm li{
+    width: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: black;
+}
+.second .citylist .citylist_zm li:hover{
+    background-color: #FF6402;
+    color: white;
+}
+.second .citylist{
+    width: 700px;
+    height:427px;
+    padding-top: 36px;
+    border: 1px solid #DDDDDD;
+    background: white;
+    position: absolute;
+    top: 45px;
+    display: none;
+    z-index: 50;
+}
+.second .citylist li:hover{
+    background-color: white;
+    color: #FF6402;
+    cursor: pointer;
+}
+.citylist_bottomzm{
+    width: 30px;
+    height: 228px;
+    float: left;
+    font-size: 14px;
+    color: #777777;
+    margin: 13px 12px 10px 10px;
+    line-height: 20px;
+}
+.citylist_bottomzm2{
+    width: 30px;
+    height: 20px;
+    float: left;
+    font-size: 14px;
+    color: #777777;
+    margin: 13px 27px 10px 0px;
+    line-height: 20px;
+    color: black;
+}
+.citylist ul.citylist_bottom{
+    float: left;
+    width: 587px;
+    height: 50px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.citylist ul.citylist_bottom li{
+    width: 42px;
+    height: 22px;
+    text-align: center;
+    margin: 0px 7px 6px 0;
+}
+.citylist_zzz{
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    background-color: white;
+}
+.citylist_zz{   
+    width: 20px;
+    height: 15px;
+    overflow: hidden;  
+}
+.second .second-address span.citylist_jt{
+    line-height: 27px;
+    font-size: 40px;
+    color: #DDDDDD;
+    margin: 0;
+    margin-left: -2px;
+}
+.citylist ul{
+    display: flex;
+    width: 640px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777777;
+    height: 20px;
+}
+.citylist ul:nth-of-type(1){
+    margin-top: 0px;
+}
+.citylist ul.citylist_top li{
+    width: 28px;
+    text-align: center;
+    padding: 10px;  
+    line-height: 0px; 
+}
+.second .second-address:hover .citylist{
+    display: block;
+}
+.second .second-address span{
+    margin-left: 16px;
+    margin-top: 6px;
+    display: block;
+    float: left;
+}
+.second .second-address img{
+    width: 14px;
+    float: left;
+    margin-left: 4px;
+    margin-top: 8px;
+}
+.second .second_search{
+    width: 500px;
+    float: left;
+    margin-left: 140px;
+}
+.second .second_search ul{
+    display: flex;
+}
+.second .second_search ul li{
+    padding: 2px 14px;
+    font-size: 12px;
+        cursor: pointer;
+}
+.second .second_search ul li.type1{
+    background-color: #FF6402;
+    color: white;
+    margin-right: 3px;
+}
+.second_search ul li:nth-of-type(2):hover{
+    cursor: pointer;
+    background-color: #FF6402;
+    color: white;
+}
+.second .second_search .second_search_content{
+    width: 496px;
+    height: 36px;
+    border: 2px solid #FF6402;
+    padding-left: 10px;
+    color: #D9C4B4;
+    font-size: 12px;
+}
+.second_search_content:focus{
+    outline: none;
+}
+.second .search_button{
+    width: 59px;
+    height: 32px;
+    background-color: #FF6402;
+    float: left;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    padding-left: 45px;
+    border: none;
+    position: relative;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.second .second_search_icon{
+    float: left;
+    position: absolute;
+    width: 24px;
+    top: 8px;
+    left: 16px;
+}
+.second .sell_button{
+    width: 120px;
+    height: 43px;
+    border: 1px solid #FF6402;
+    background-color: white;
+    font-size: 16px;
+    color: #FF6402;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.second .sell_button:hover{
+    background-color: #FFF3EC;
+}
+
+
+
+
+
+.tab{
+    width: 100%;
+    height: 36px;
+    background-color: #FF6402;
+}
+.tab ul{
+    width: 950px;
+    display: flex;
+}
+.tab ul{
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+}
+.tab ul li{
+    flex-grow:1;
+    text-align: center;
+    height:36px;
+    line-height: 20px;
+}
+.tab ul li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.tab ul li:hover span{
+    border-color: white;
+}
+.tab ul li span{
+    border-right: 1px solid #FF8334;
+    height: 20px;
+    margin-top: 8px;
+    display: block;
+}
+.tab ul li:nth-of-type(1){
+    flex-grow:3;
+}
+.tab ul li:hover{
+    background-color: white;
+    color: #FF6402;
+}
+
+
+
+
+
+
+
+/*bottom*/
+.bottom{
+    width: 100%;
+    height: 50px;
+    background: #EEEEEE;
+    text-align: center;
+    padding-top: 20px;
+}
+.bottom span{
+    font-size: 12px;
+    color: #B0B3B4;
+}
+
+
+
+
+
+           /*login css*/
+.login_content input:focus{
+    outline: none;
+}
+.login_content{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/login_bg.jpg);
+}
+.login_main{
+    width: 340px;
+    float: right;
+    background: white;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+.login_main_cs{
+    width: 310px;
+    margin: 30px 18px;
+}
+.login_main span:nth-of-type(1),.login_main span:nth-of-type(2){
+    width: 154px;
+    height: 24px;
+    float: left;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #777777;
+    cursor: pointer;
+    text-align: center;
+    line-height: 24px;
+}
+.login_main span:nth-of-type(3){
+    width: 154px;
+    height: 24px;
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    display: none;
+}
+.login_main span:nth-of-type(4){
+    width: 154px;
+    height: 24px;
+    float: right;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #999999;
+    display: none;
+}
+.login_main span:nth-of-type(1){
+    color: #FF6402;
+    border-right: 1px solid #E5E5E5;
+}
+.login_main span:nth-of-type(2){
+    color: #777777;
+}
+#telNum{
+    width: 293px;
+    height: 42px;
+    border: 1px solid #E5E5E5;
+    margin:15px 0 5px 0;
+    padding-left: 15px
+}
+span#login_tel_yz{
+    font-size: 12px;
+    display: block;
+    margin-left: 5px;
+    visibility:hidden;
+    color: red;
+}
+#identify{
+    width: 183px;
+    height: 42px;
+    border: 1px solid #E5E5E5;
+    float: left;
+    margin:5px 0 5px 0;
+    padding-left: 15px
+}
+#getIdentify{
+    width: 110px;
+    height: 46px;
+    float: left;
+    margin:5px 0 5px 0;
+    border: none;
+    background-color: white;
+    color: #B7B3C5;
+    cursor: pointer;
+}
+#login_check{
+    margin-top: 10px;
+    float: left;
+}
+#login_a1{
+    display: block;
+    line-height: 32px;
+    float: left;
+}
+#loginNow{
+    width: 310px;
+    height: 44px;
+    background-color: #FFC199;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#login_a2{
+    display: block;
+    color: #777777;
+    font-size: 16px;
+    margin-left: 123px;
+    margin-top: 15px;
+    width: 64px;
+}
+#login_password{
+    width: 293px;
+    height: 42px;
+    border: 1px solid #E5E5E5;
+    margin:5px 0 15px 0;
+    padding-left: 15px
+}
+#idNum{
+    width: 198px;
+    height: 42px;
+    border: 1px solid #E5E5E5;
+    float: left;
+    margin:10px 0 10px 0;
+    float: left;
+    padding-left: 15px
+}
+#login_image{
+    margin:10px 0 15px 0;
+    float: left;
+}
+#login_password{
+    display: none;
+}
+#idNum{
+    display: none;
+}
+#login_image{
+    display: none;
+}
+
+
+
+
+
+
+
+/*Buycar*/
+.Buycar_title{
+    color: #686868;
+    font-size: 14px;
+}
+.Buycar_wz{
+    color: #394043;
+    font-size: 14px;
+}
+.buy_bigu{
+    color: #394043;
+    font-size: 14px;
+    width: 926px;
+    float: left;
+}
+.buy_smallu{
+    display: flex;
+    border: 1px #E5E5E5;
+    border-style: none solid solid solid;
+    padding: 7px;
+    flex-wrap: wrap;
+}
+.buy_bigu li:nth-of-type(1) ul .buy_noneu{
+    display: none;
+    border: none;
+    padding: 7px;
+    flex-wrap: wrap;
+}
+.buy_bigu li:nth-of-type(1) ul{
+    border-top: 1px solid #E5E5E5;
+}
+.buy_bigu .buy_car_smallli:not(.buy_aaaaa):hover{
+    background-color: #FF6402;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+.buy_noneu li:not(.buycay_kb):hover{
+    color: #FF6402;
+    cursor: pointer;
+}
+.buy_bigu li:nth-of-type(2) ul li:not(.buy_aaaaa):hover{
+    color: #FF6402;
+    cursor: pointer;
+}
+.buy_bigu li:nth-of-type(3) ul li:not(.buy_aaaaa):hover{
+    color: #FF6402;
+    cursor: pointer;
+}
+.buy_bigu li:nth-of-type(4) ul li:not(.buy_aaaaa):not(.buycay_kb):hover{
+    color: #FF6402;
+    cursor: pointer;
+}
+.buy_smallu li{
+    padding: 5px 10px;
+}
+
+.buy_smallu li img{
+    margin-bottom: -2px;
+    width: 14px;
+}
+.buy_smallu li:nth-of-type(1){
+    color: #B0B3B4;
+    background-color: #F8F8F8;
+}
+.buy_bigu li:nth-of-type(2) .li_super{
+    margin-left: 40px;
+    position: relative;
+}
+.buycar_pricesel{
+    width: 262px;
+    height: 44px;
+    position: absolute;
+    top: 37px;
+    right: 5px;
+    border: 2px solid #E5E5E5;
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 14px;
+    display: none;
+    z-index: 2;
+}
+li.li_super:hover  div.buycar_pricesel{
+    color: #394043;
+}
+.buycar_pricesel div,.buycar_pricesel input,.buycar_pricesel button,.buycar_pricesel span{
+    float: left;
+}
+.buycar_pricesel input{
+    width: 40px;
+    height: 18px;
+    border: 1px solid #E5E5E5;
+}
+.buycar_pricesel span{
+    margin: 0 20px;
+}
+.buycar_pricesel button{
+    width: 50px;
+    height: 25px;
+    background: #E5E5E5;
+    border: none;
+    position: relative;
+    top: -2px;
+    left: 13px;
+    color: #B5C5D8;
+}
+.buy_bigu li:nth-of-type(3) .li_super{
+    padding:5px 18px;
+    border: 1px solid #E5E5E5;
+    margin-left: 53px;
+}
+.buycar_zlxk{
+    width: 924px;
+    height: 234px;
+    border: 1px solid #E5E5E5;
+    border-top-style: none;
+    position: relative;
+    display: none;
+}
+.buycar_zlxk_r{
+    width: 733px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    z-index: -1;
+}
+div#buycar_tb ul.buycar_zlxk_r li:hover{
+    color: #394043;
+    cursor: auto;
+}
+#buycar_zlxk_r_t{
+    position: absolute;
+    bottom: 40px;
+    left: 314px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background: #FF6402;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#buycar_zlxk_r_f{
+    position: absolute;
+    bottom: 40px;
+    left: 440px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    color: #394043;
+    background: white;
+    cursor: pointer;
+    outline: none;
+}
+#buycar_zlxk_r_f:hover{
+    border-color: #FF6402;
+}
+.buycar_zlxk_r input{
+    vertical-align: middle;
+}
+.buycar_zlxk_r li{
+    width: 125px;
+    margin-right: 20px;
+    height: 30px;
+}
+.buycar_zlxk_l{
+    height: 234px;
+    float: left;
+    background-color: #F8F8F8;
+    padding-top:12px;
+    padding-left:17px;
+    color:#B0B3B4;
+    width: 41px;
+}
+
+.buy_bigu li:nth-of-type(4) .li_super{
+    margin-left: 130px;
+}
+.buy_bigu li:nth-of-type(4) .buy_smallu{
+    height: 30px;
+    overflow: hidden;
+}
+.buycay_kb{
+    width: 27px;
+}
+.buy_noneu li:nth-of-type(1){
+    background-color: white;
+}
+.buycar_middlelist{
+    display: flex;
+    width: 926px;
+    background-color: #F8F8F8;
+    border: 1px solid #E5E5E5;
+    margin: 13px 0px;
+    box-sizing: border-box;
+    float: left;
+}
+.buycar_middlelist li{
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 18px 23px;
+    box-sizing: border-box;
+    height: 57px;
+}
+.buycar_middlelist li:hover{
+    color: #FF6402;
+    border-bottom: 2px solid #FF6402;
+    cursor: pointer;
+}
+.buycar_middlesmalllist{
+    display: flex;
+    width: 926px;
+    float: left;
+}
+.buycar_middlesmalllist li{
+    font-size: 12px;
+    margin: 0px 10px;
+}
+.buycar_middlesmalllist input{
+    vertical-align: middle;
+}
+.buycar_middlesmalllist li:nth-of-type(1){
+    margin: 0px 25px;
+}
+.buycar_middlesmalllist li:last-of-type{
+    margin: 0px 25px;
+    text-align: right;
+    margin-left: 125px;
+}
+.buycar_carshow{
+    display: flex;
+    width: 926px;
+    overflow: hidden;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    float: left;
+}
+.buycar_carshow>li{
+    width: 220px;
+    margin-right: 12px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 12px;
+}
+.buycar_carshow li.buycar_carshownomargin{
+    margin-right: 0px;
+}
+.buycar_carshow li.buycar_carshow_list{
+    height: 308px;
+    background: #EEEEEE;
+}
+.buycar_carshow li.buycar_carshow_list ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.buycar_carshow li.buycar_carshow_list ul li{
+    padding: 5px 13px;
+    background: white;
+    border: 1px solid #E5E5E5;
+    margin:5px 0;
+    color: #394043;
+    font-size: 14px;
+}
+.buycar_carshow li.buycar_carshow_list ul li:hover{
+    border-color: #FF6402;
+    cursor: pointer;
+}
+.buycar_carshow li.buycar_carshow_list ul li.buycar_carshow_listfirst{
+    background: #EEEEEE;
+    border: none;
+    margin-left: 9px;
+}
+.buycar_carshow img{
+    cursor: pointer;
+}
+.buycar_carshow li div.buycar_car_name{
+    margin: 10px;
+    height: 38px;
+    font-size: 14px;
+    color: #394043;
+    cursor: pointer;
+}
+.buycar_carshow li div.buycar_car_name:hover{
+    color: #FF6402;
+}
+.buycar_carshow li div.buycar_infor{
+    margin: 10px;
+    font-size: 8px;
+    color: #C6C8D6;
+}
+.buycar_carshow li div.buycar_price{
+    font-size: 18px;
+    color: #FF6402;
+    margin-left: 10px;
+    float: left;
+}
+.buycar_carshow li div.buycar_pricebefore{
+    font-size: 8px;
+    color: #C6C8D6;
+    text-decoration: line-through;
+    margin:5px 5px;
+    float: left;
+}
+.buycar_carshow li div.buycar_pricebegin{
+    font-size: 8px;
+    color: #FF6402;
+    margin:5px 5px;
+    float: left;
+}
+.buycar_carshow li .buycar_lj{
+    font-size: 8px;
+    color: #94AABD;
+    border: 1px solid #E5E5E5;
+    width: 51px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+.buycar_page{
+    display: flex;
+    margin:20px 173px;
+    width: 580px;
+}
+.buycar_page li{
+    padding: 5px 12px;
+    font-size: 14px;
+    color:#806868;
+    border: 1px solid #E5E5E5;
+    margin: 0px 8px;
+}
+.buycar_page li:hover{
+    background-color: #FF6402;
+    color: white;
+    cursor: pointer;
+}
+.buycar_page2{
+    display: flex;
+    margin-top:20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.buycar_page2 li{
+    padding: 5px 12px;
+    font-size: 14px;
+    color:#806868;
+    border: 1px solid #E5E5E5;
+    margin: 0px 3px;
+}
+.buycar_page2 li.buycar_page2first{
+   width: 56px;
+   border: none;
+   padding-left: 0px;
+   margin-left: 0px;
+}
+.buycar_page2 li:hover{
+    background-color: #FF6402;
+    color: white;
+    cursor: pointer;
+}
+.buycar_page2 li.buycar_page2first:hover{
+    background-color: #EEEEEE;
+    color:#806868;
+    cursor: default;
+}
+.buycar_bottom{
+    width: 100%;
+    background: #EEEEEE;
+}
+.buycar_bottom_big{
+    display:flex;
+    padding-top: 30px;
+}
+.buycar_bottom_big li{
+    padding: 0px 20px;
+    border-left: 2px solid #E5E5E5;
+    font-size: 15px;
+    color:#394043;
+}
+.buycar_bottom_big li.buycar_bottom_bigfirst{
+    padding-left: 0px;
+    border: none;
+}
+.buycar_bottom_big li:hover{
+    color: #FF6402;
+    cursor: pointer;
+}
+.buycar_bottom_small{
+    display: none;
+    width: 1080px;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    border-bottom: 1px solid #E5E5E5;
+    height: 50px;
+}
+.buycar_bottom_small li{
+    margin-right: 30px;
+    font-size: 12px;
+    color:#A3A2A2;
+    margin-bottom: 10px;
+}
+.buycar_bottom_small li:hover{
+    color: #FF6402;
+    cursor: pointer;
+}
+.buycar_righttab{
+    float: left;
+    width: 216px;
+    background: #EEEEEE;
+    color: #4B5256;
+    font-size: 16px;
+    padding: 8px 20px;
+    margin-top: 80px;
+    border: 1px solid #E5E5E5;
+}
+.buycar_righttabu{
+    float: left;
+    display: flex;
+    width: 256px;
+    flex-wrap: wrap;
+    color: #4B5256;
+    border: 1px solid #E5E5E5;
+    border-top-style: none;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+.buycar_righttabu li{
+    margin-left: 51px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.buycar_righttabu li:hover{
+    color: #FF6802;
+    cursor: pointer;
+}
+.buycar_righttabu li img{
+    width: 32px;
+    margin-left: 11px;
+}
+.buycar_rightsencond{
+    width: 256px;
+    display: flex;
+    border:1px solid #E5E5E5;
+}
+.buycar_rightsencond li{
+    font-size: 16px;
+    color: #456983;
+    flex-grow: 1;
+    text-align: center;
+    padding: 8px 0;
+    box-sizing: border-box;
+    height: 40px;
+}
+.buycar_rightsencond li:hover{
+    border-bottom: 2px solid #FF6402;
+    cursor: pointer;
+}
+.buycar_rightsencondbottom{
+    width: 211px;
+    display: flex;
+    padding: 20px 0;
+    border:1px #E5E5E5;
+    border-style: none solid solid solid;
+    flex-wrap: wrap;
+    padding-left: 45px;
+    list-style: disc;
+}
+.buycar_rightsencondbottom li{
+    color: #456983;
+    padding: 10px 0;
+    padding-right: 10px;
+    font-size: 14px;
+}
+#buycar_rightsencondbottom1 li,#buycar_rightsencondbottom3 li{
+    width: 85px;
+}
+#buycar_rightsencondbottom2,#buycar_rightsencondbottom3{
+    display: none;
+}
+.buycar_rightsencondbottom li:hover{
+    color: #FF6402;
+    cursor: pointer;
+}
+.buycar_leftall{
+    float: left;
+    width: 924px;
+}
+.buycar_rightall{
+    width: 259px;
+    float: left;
+    height: 1800px;
+    margin-left: 17px;
+}
+.buycar_righttab2{
+    float: left;
+    width: 216px;
+    background: #EEEEEE;
+    color: #4B5256;
+    font-size: 16px;
+    padding: 8px 20px;
+    margin-top: 17px;
+    border: 1px #E5E5E5;
+    border-style: solid solid none solid;
+}
+.buycar_right_sellcar{
+    width: 256px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.buycar_right_sellcar_r{
+    width: 116px;
+    float: right;
+    position: relative;
+}
+.buycar_right_sellcar li{
+    width: 256px;
+    height: 125px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.buycar-hot{
+    width: 16px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.buycar_right_sellcar li .buycar_selljs{
+    width: 50px;
+    height: 20px;
+    color: white;
+    background-color: #FF2D4F;
+    position: absolute;
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: middle;
+    right: 196px;
+}
+.buycar_right_sellcar li>img{
+    float: left;
+    width: 120px;
+    margin: 10px;
+}
+.buycar_right_sellcar li>img:hover{
+    cursor: pointer;
+}
+.buycar_right_sellcar li div.buycar_car_name{
+    margin: 10px;
+    height: 34px;
+    font-size: 12px;
+    color: #394043;
+}
+.buycar_right_sellcar li div.buycar_car_name:hover{
+    color: #FF6402;
+    cursor: pointer;
+}
+.buycar_right_sellcar li div.buycar_infor{
+    margin: 10px;
+    font-size: 8px;
+    color: #C6C8D6;
+}
+.buycar_right_sellcar li div.buycar_price{
+    font-size: 16px;
+    color: #FF6402;
+    margin-left: 10px;
+    float: left;
+}

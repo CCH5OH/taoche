@@ -1,0 +1,716 @@
+/*头部精品评估start*/
+
+.assessment-top {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background: url(../img/bannerpinggu.jpg) no-repeat center center;
+	min-width: 1200px;
+}
+
+
+/*评估表start*/
+
+.assessment-container {
+	clear: both;
+	display: block;
+	width: 386px;
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	top: 0;
+	z-index: 3;
+	padding-top: 10px;
+}
+
+.assessment-screen {
+	width: 386px;
+	height: 380px;
+	background-color: #fff;
+}
+
+
+/*评估表头start*/
+
+.assessment-screen-title {
+	height: 72px;
+	line-height: 72px;
+	font-size: 23px;
+	text-align: center;
+	color: #fff;
+	background: url(../img/ping-top-bg2.jpg) no-repeat left bottom #fd9933;
+}
+
+
+/*评估表头end*/
+
+
+/*评估表内容start*/
+
+.form-box {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.form-group {
+	height: 55px;
+	padding-left: 32px;
+}
+
+.form-col {
+	float: left;
+	display: inline;
+	font-size: 14px;
+	color: #999;
+	position: relative;
+}
+
+.car-col {
+	float: left;
+	display: inline;
+	font-size: 14px;
+	color: #999;
+	position: relative;
+}
+
+.car-checked {
+	height: 34px;
+	position: relative;
+	float: left;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	background-color: #fff;
+	/*z-index: 6;*/
+	border-radius: 3px;
+}
+
+.form-w300 {
+	width: 300px;
+	padding-left: 12px;
+	padding-right: 10px;
+}
+
+.selectcarname {
+	display: block;
+	height: 34px;
+	line-height: 32px;
+	font-size: 15px;
+	overflow: hidden;
+	padding-right: 20px;
+	color: #cbcbcb;
+}
+
+.form-arrow {
+	height: 34px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.form-arrow em {
+	width: 22px;
+	height: 16px;
+	right: 4px;
+	top: 20px;
+	background: url(../img/bd_bg1.png) no-repeat;
+	background-position: left -30px;
+	display: block;
+	margin-top: 12px;
+	margin-right: 5px;
+}
+
+.form-w150 {
+	width: 142px;
+	margin-right: 10px;
+	padding-left: 12px;
+	padding-right: 10px;
+}
+
+.time-checked {
+	height: 34px;
+	position: relative;
+	float: left;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	background-color: #fff;
+	/*z-index: 6;*/
+	border-radius: 3px;
+}
+
+.oldcartime {
+	display: block;
+	height: 34px;
+	line-height: 32px;
+	font-size: 15px;
+	overflow: hidden;
+	padding-right: 20px;
+	color: #cbcbcb;
+}
+
+.form-text-box {
+	width: 145px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	float: left;
+}
+
+.form-input {
+	border: 0;
+	width: 72px;
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 12px;
+	font-size: 15px;
+	background-color: #fff;
+	border-radius: 3px;
+	color: #cbcbcb;
+}
+
+.form-text-box span {
+	float: right;
+	margin-right: 12px;
+	font-size: 15px;
+	color: #666;
+	line-height: 31px;
+}
+
+.city-checked {
+	height: 34px;
+	position: relative;
+	float: left;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	background-color: #fff;
+	z-index: 6;
+	border-radius: 3px;
+}
+
+.city-checked span {
+	height: 34px;
+	line-height: 32px;
+	font-size: 15px;
+	overflow: hidden;
+	padding-right: 20px;
+}
+
+.phone-checked {
+	height: 34px;
+	position: relative;
+	float: left;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	background-color: #fff;
+	/*z-index: 6;*/
+	border-radius: 3px;
+}
+
+.new-gjinput {
+	width: 278px;
+	height: 32px;
+	border: 0;
+	outline: 0;
+	line-height: 32px;
+	color: #888;
+	float: left;
+}
+
+.assessment-screen .form-error-dowm {
+    color: #ff223a;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    width: 100px;
+}
+
+.assessment-screen-but {
+	margin-left: 32px;
+}
+
+.assessment-screen-but a {
+	display: block;
+	width: 324px;
+	height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	background: #fd9933;
+	line-height: 38px;
+	border-radius: 3px;
+	text-align: center;
+	border: 1px solid #fd9933;
+}
+
+.assessment-screen-but a:hover {
+	background: #ff8d03;
+    border: 1px solid #ff8d03;
+}
+
+
+/*汽车品牌列表样式start*/
+
+.form-popover {
+	position: absolute;
+	top: 35px;
+	width: 322px;
+	border: 1px solid #ddd;
+	z-index: 20;
+	background-color: #fff;
+	border-radius: 4px;
+	left: 0;
+}
+
+.form-popover-tit {
+	height: 37px;
+	line-height: 37px;
+	position: relative;
+	border-bottom: 1px solid #ddd;
+}
+
+.form-popover-tit a {
+	height: 31px;
+	position: absolute;
+	left: 0;
+	top: -2px;
+	padding-left: 12px;
+	color: #394043;
+	font-size: 16px;
+}
+
+.form-popover-l {
+	width: 30px;
+	float: left;
+	border-right: 1px solid #ddd;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 450px;
+	background-color: #f9f9f9;
+	overflow: hidden;
+}
+
+.form-popover-l a {
+	display: block;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.form-popover-l a:hover {
+	color: #ff9a1f;
+	background-color: #f0f0f0;
+}
+
+.form-popover-r {
+	width: 270px;
+	float: left;
+	height: 450px;
+	overflow-y: auto;
+}
+
+.form-popover-p {
+	border-top: 1px solid #e1e1e1;
+	margin-top: -1px;
+}
+
+
+/*汽车品牌列表样式end*/
+
+
+/*上牌时间start*/
+
+.time-popover {
+	height: 448px;
+}
+
+.form-popover-year {
+	width: 158px;
+	height: 446px;
+	border-right: 1px solid #ddd;
+	overflow-y: hidden;
+	float: left;
+}
+
+.form-height {
+	height: 448px;
+	overflow-y: auto;
+}
+
+.form-popover-year-text {
+	font-size: 12px;
+}
+
+.form-height p {
+	height: 36px;
+	line-height: 36px;
+	display: block;
+	margin-top: 1px;
+}
+
+.form-height p a {
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	overflow: hidden;
+	display: block;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+.form-height p a:hover {
+	color: #ff9a1f;
+	background-color: #f0f0f0;
+}
+/*上牌时间end*/
+/*评估表内容end*/
+/*评估表end*/
+/*头部精品评估end*/
+
+/*车辆估值、信我没错start*/
+.container{
+	clear: both;
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+}
+.assessment-tit {
+    height: 210px;
+    line-height: 210px;
+    text-align: center;
+    font-size: 48px;
+    color: #686868;
+    font-weight: normal;
+}
+.assessment-menu-list li{
+	text-align: center;
+	float: left;
+}
+.offer{
+	width: 300px;
+}
+.real-time{
+	width: 330px;
+    margin: 0 127px;
+}
+.comprehensive{
+	width: 315px;
+}
+.offer em{
+    background-position: left top;
+    width: 100px;
+    height: 95px;
+    margin: 0 auto;
+    background: url(../img/ping-home-ico1.png) no-repeat;
+    display: block;
+}
+.offer h3{
+	font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    font-weight: normal;
+    color: #686868;
+}
+.offer p{
+	font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #686868;
+}
+.real-time em{
+	background-position: left -102px;
+	width: 100px;
+    height: 95px;
+    margin: 0 auto;
+    background: url(../img/ping-home-ico1.png) no-repeat;
+    display: block;
+}
+.real-time h3{
+	font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    font-weight: normal;
+    color: #686868;
+}
+.real-time p{
+	font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #686868;
+}
+.comprehensive em{
+    background-position: left -201px;
+    width: 100px;
+    height: 95px;
+    margin: 0 auto;
+    background: url(../img/ping-home-ico1.png) no-repeat;
+    display: block;
+}
+.comprehensive h3{
+	font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    font-weight: normal;
+    color: #686868;
+}
+.comprehensive p{
+	font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #686868;
+}
+/*车辆估值、信我没错end*/
+
+/*热门评估车系start*/
+.car-ranking {
+    display: table;
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 85px;
+    padding-bottom: 80px;
+}
+.car-ranking-list{
+	width: 550px;
+}
+.float-left{
+	float: left;
+}
+.float-rit{
+	float: right;
+}
+.car-ranking-list h4{
+	height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: normal;
+    color: #686868;
+}
+.car-ranking-tit {
+    font-size: 16px;
+    color: #666;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f6f6f6;
+}
+.car-ranking-tit .first {
+    padding-left: 53px;
+    width: 150px;
+    margin-right: 10px;
+    text-align: left;
+    float: left;
+}
+.car-ranking-tit .two {
+    width: 90px;
+    margin-right: 65px;
+    text-align: right;
+    float: left;
+}
+.car-ranking-tit .three {
+    width: 130px;
+    margin-right: 10px;
+    text-align: right;
+    float: left;
+}
+.car-ranking-text {
+    height: 33px;
+    line-height: 33px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+}
+.car-ranking-text .first {
+    height: 33px;
+    overflow: hidden;
+    width: 200px;
+    margin-right: 10px;
+    text-align: left;
+    float: left;
+}
+.car-ranking-text .color-a {
+    background-color: #ff3f20;
+    color: #fff;
+}
+.car-ranking-text .color-b{
+	background-color: #ff6f20;
+    color: #fff;
+}
+.car-ranking-text .color-c{
+	background-color: #ffb820;
+    color: #fff;
+}
+.car-ranking-text strong {
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: #666;
+}
+.car-ranking-text .first a{
+	line-height: 33px;
+	color: #394043;
+	font-size: 18px;
+}
+.car-ranking-list .two {
+    width: 90px;
+    margin-right: 65px;
+}
+.car-ranking-list .two {
+    width: 85px;
+    margin-right: 70px;
+    text-align: right;
+    float: left;
+}
+.car-ranking-list .two em{
+	color: #fd9933;
+}
+.car-ranking-list .three {
+    width: 130px;
+    margin-right: 10px;
+    text-align: right;
+    float: left;
+}
+.car-ranking-list .three em{
+	color: #fd9933;
+}
+/*热门评估车系end*/
+
+/*商家推荐start*/
+.merchant {
+    height: 200px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 80px;
+    border-left: none;
+}
+.merchant li {
+	box-sizing: border-box;
+    width: 299px;
+    border-left: 1px solid #e5e5e5;
+    float: left;
+    height: 200px;
+    position: relative;
+}
+.merchant li h4 {
+    margin-left: 17px;
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+.merchant li h4 a{
+	font-size: 16px;
+	font-weight: normal;
+}
+.merchant li h4 a:hover{
+	color: #FF6402;
+}
+.merchant li p {
+    line-height: 18px;
+    color: #999;
+    font-size: 14px;
+    padding-left: 60px;
+    padding-right: 10px;
+    position: relative;
+    margin-bottom: 8px;
+}
+.merchant li p strong {
+    position: absolute;
+    left: 17px;
+    top: 0;
+    line-height: 18px;
+}
+.merchant li p a{
+	color: #3e7cc0;
+}
+.merchant-but {
+    position: absolute;
+    left: 108px;
+    bottom: 20px;
+}
+.merchant-but span a{
+    color: #666;
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    height: 40px;
+    line-height: 38px;
+    width: 90px;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+.merchant-but span a:hover{
+	color: #FF6402;
+	border: 1px solid #FF6402;
+}
+/*商家推荐end*/
+
+/*友情链接start*/
+.home-main {
+    margin-bottom: 60px;
+}
+.section-header {
+    clear: both;
+    height: 48px;
+    line-height: 42px;
+    border-bottom: 4px solid #ececec;
+    position: relative;
+}
+.section-header>.box {
+    float: left;
+}
+.section-header>.box h2 {
+    color: #333;
+    height: 48px;
+    font-size: 24px;
+    border-bottom: 4px solid #fd9933;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    font-weight: bold;
+}
+.section-tag-content {
+    clear: both;
+    zoom: 1;
+    font-size: 14px;
+    padding-top: 10px;
+    max-height: 95px;
+    overflow: hidden;
+}
+.section-tag-content>ul li {
+    float: left;
+    padding: 0 10px 0 0;
+    margin-right: 10px;
+    position: relative;
+    line-height: 30px;
+}
+.section-tag-content>ul li a:hover{
+	color: #FF6402;
+}
+/*友情链接end*/
+/*经营许可证编号start*/
+.ft-copy{
+	text-align: center;
+    color: #b0b3b4;
+    line-height: 18px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background: #eee;
+}
+.ft-copy span{
+	display: inline-block;
+    vertical-align: middle;
+}
+.ft-copy img{
+	display: inline-block;
+    vertical-align: middle;
+}
+/*经营许可证编号end*/

@@ -1,0 +1,26 @@
+$(function(){
+	$("#tabb").find("li:nth-of-type(1)").click(function(){
+        window.location.href="index.html"
+	})
+	$("#tabb").find("li:nth-of-type(2)").click(function(){
+        window.location.href="Buycar.html"
+	})
+	$("#tabb").find("li:nth-of-type(3)").click(function(){
+        window.location.href="01maiche.html"
+	})
+	$("#tabb").find("li:nth-of-type(4)").click(function(){
+        window.location.href="02gujia.html"
+	})
+	$("#tabb").find("li:nth-of-type(5)").click(function(){
+        window.location.href="Change.html"
+	})
+	$("#tabb").find("li:nth-of-type(6)").click(function(){
+        window.location.href="03fenqi.html"
+	})
+	$("#tabb").find("li:nth-of-type(7)").click(function(){
+        window.location.href="New_car.html"
+	})
+	$("#dll").click(function(){
+        window.location.href="Login.html"
+	})
+})

@@ -1,0 +1,646 @@
+.Change_cot_box_ {
+	width: 1200px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*1级标题s*/
+
+.change_first_title {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 60px auto 30px auto;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	color: #999;
+	font-family: "Microsoft YaHei";
+	width: 1200px;
+}
+
+.change_first_title h2 {
+	font-weight: normal;
+	display: inline-block;
+	font-size: 36px;
+	height: 35px;
+	color: #333;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+
+.change_first_title i {
+	font-style: normal;
+}
+
+
+/*1级标题e*/
+
+
+/*卖车流程s*/
+
+.change_process {
+	border: 1px solid #e9e9e9;
+	border-radius: 4px;
+	height: 100px;
+	margin-bottom: 60px;
+}
+
+.change_process ul {
+	padding-left: 5px;
+	display: flex;
+	/*flex-wrap: wrap;*/
+}
+
+.change_process ul li {
+	padding-left: 5px;
+	width: 305px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 18px;
+	position: relative;
+	display: flex;
+}
+
+.change_process li em {
+	width: 0;
+	padding-left: 36px;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	height: 30px;
+	display: inline-block;
+	margin-left: 45px;
+	margin-top: 37px;
+	margin-right: 30px;
+	background: url(../../images/Change/process.gif) no-repeat;
+}
+
+.change_process li i {
+	width: 53px;
+	height: 98px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: url(../../images/Change/process.gif) no-repeat;
+	background-position: left top;
+}
+
+li.change_process_bg1 em {
+	background-position: -63px -3px;
+}
+
+li.change_process_bg2 em {
+	background-position: -110px -3px;
+}
+
+li.change_process_bg3 em {
+	background-position: -63px -40px;
+}
+
+li.change_process_bg4 em {
+	background-position: -110px -40px;
+}
+
+.change_process ul>.change_process_bg4 {
+	width: 230px;
+	margin-right: 0;
+}
+
+
+/*卖车流程e*/
+
+
+/*选定意向新车s*/
+
+
+/*标题s*/
+
+.newcars_title {
+	height: 80px;
+	line-height: 25px;
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+	border-bottom: 1px solid #e9e9e9;
+	margin-top: -2px;
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+.newcars_title h3 {
+	font-weight: normal;
+	display: inline-block;
+	font-size: 24px;
+	color: #333;
+	float: left;
+	margin-right: 10px;
+	line-height: 25px;
+	
+}
+
+
+/*标题e*/
+
+
+/*选择新车输入框展示s*/
+
+.newcars_choice {
+	margin-bottom: 60px;
+}
+
+.newcars_choice_box {
+	display: flex;
+	flex-wrap: wrap;
+	/*position: relative;*/
+	margin: 30px 0 0 210px;
+	font-family: "Microsoft Yahei", "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 60px;
+}
+
+
+/*小标题s*/
+
+.newcars_choice .newcars_brand {
+	width: 80px;
+	text-align: right;
+	height: 50px;
+	line-height: 50px;
+	/*position: absolute;*/
+	left: 0;
+	top: 0;
+	font-size: 18px;
+	color: #333;
+	display: block;
+	z-index: 10;
+}
+
+
+/*小标题e*/
+
+
+/*按钮s*/
+
+.newcars_choice .newcars_brand_txt {
+	display: inline;
+	width: 580px;
+	font-size: 14px;
+	color: #999;
+	margin-left: 10px;
+	position: relative;
+}
+
+.newcars_brand_btn {
+	width: 578px;
+	padding-left: 12px;
+	padding-right: 10px;
+	position: relative;
+	height: 48px;
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.newcars_btn_txt {
+	height: 48px;
+	line-height: 48px;
+	overflow: hidden;
+	display: block;
+	margin-top: 0;
+	color: #cbcbcb;
+	font-size: 16px;
+}
+
+.newcars_btn_right {
+	width: 48px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.newcars_btn_right em {
+	width: 22px;
+	height: 16px;
+	right: 4px;
+	top: 20px;
+	background: url(../../images/Change/bd_bg1.png) no-repeat;
+	background-position: left -30px;
+	display: block;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+#treatment_box{
+	display: none;
+}
+.newcars_treatment_brand {
+	cursor: pointer;
+	position: absolute;
+	right: -22px;
+	top: 60px;
+	width: 600px;
+	border: 1px solid #ddd;
+	z-index: 20;
+	background-color: #fff;
+	border-radius: 4px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.treatment_brand {
+	display: inline-block;
+	width: 600px;
+	height: 37px;
+	line-height: 37px;
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	color: #394043;
+	font-size: 16px;
+	padding-left: 12px;
+}
+
+.treatment_brand_letter {
+	width: 48px;
+	width: 19px;
+	border-right: 1px solid #ddd;
+	padding-top: 5px;
+	padding-left: 14px;
+	padding-right: 14px;
+	/*height: 450px;*/
+	height: 420px;
+	background-color: #f9f9f9;
+	overflow: hidden;
+}
+
+.treatment_brand_letter li {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+
+.treatment_on {
+	background: #FD9933;
+	color: #fff !important;
+	/*background: url(../../images/Change/Change_treatment01.png) no-repeat;*/
+}
+
+.treatment_brand_box {
+	width: 552px;
+	/*height: 450px;*/
+	height: 420px;
+	overflow-y: auto;
+}
+
+.treatment_brand_box dl>dt {
+	margin-left: 12px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Microsoft Yahei", "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	margin-right: 12px;
+}
+.treatment_brand_box dl>dd{
+	margin: 0;
+	height: 32px;
+line-height: 32px;
+font-size: 14px;
+	text-decoration: none;
+	color: #333;
+	padding-left: 12px ;
+}
+.treatment_brand_box dl>dd:hover{
+	color: #FD9933;
+	background-color: #f0f0f0;
+}
+/*按钮e*/
+
+
+/*车系展示s*/
+
+.newcars_choice_list {
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-left: 110px;
+}
+
+.newcars_choice_list ul {
+	display: flex;
+}
+
+.newcars_choice_list ul li {
+	width: 120px;
+	text-align: center;
+	margin-right: 33px;
+	padding-bottom: 5px;
+}
+.newcars_choice_list ul li p{
+	font-size: 14px;
+	line-height: 20px;
+	color: #999;
+}
+.newcars_choice_list ul li img {
+	width: 120px;
+	height: 80px;
+	cursor: pointer;
+}
+
+
+/*车系展示e*/
+
+
+/*选择新车输入框展示e*/
+
+
+/*选定意向新车e*/
+
+
+/*提交旧车信息s*/
+
+.usedcars_box {
+	margin-bottom: 60px;
+}
+
+.usedcars_box_bg {
+	box-sizing: border-box;
+	margin: 30px 0 0 210px;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "Microsoft Yahei", "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.usedcars_box_list {
+	min-height: 50px;
+	line-height: 50px;
+	position: relative;
+	/*padding-left: 95px;*/
+	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.usedcars_title {
+	width: 80px;
+	text-align: right;
+	height: 50px;
+	line-height: 50px;
+	/*position: absolute;*/
+	left: 0;
+	top: 0;
+	font-size: 18px;
+	color: #333;
+	display: block;
+	z-index: 10;
+}
+
+.usedcars_list_con {
+	width: 578px;
+	padding-left: 12px;
+	padding-right: 10px;
+	position: relative;
+	height: 48px;
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-left: 10px;
+	display: flex;
+}
+
+.usedcars_con {
+	display: inline;
+	width: 580px;
+	font-size: 14px;
+	color: #999;
+	margin-left: 10px;
+}
+
+#usedcars_neme_tips,
+#usedcars_phone_tips,
+#usedcars_verifica_tips {
+	margin-left: 20px;
+}
+
+.usedcars_information_right {
+	width: 48px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.usedcars_information_right em {
+	width: 22px;
+	height: 16px;
+	right: 4px;
+	top: 20px;
+	background: url(../../images/Change/bd_bg1.png) no-repeat;
+	background-position: left -30px;
+	display: block;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.usedcars_verifica_title {
+	width: 428px;
+}
+
+.usedcars_verifica_btn a {
+	display: block;
+	height: 50px;
+	color: #666;
+	background: #fdfdfd;
+	border: 1px solid #ddd;
+	width: 140px;
+	font-size: 18px;
+	margin-left: 10px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.usedcars_verifica_btn a:hover {
+	text-decoration: none;
+	background: #fff;
+	border: 1px solid #fd9933;
+	color: #fd9933;
+}
+
+.usedcars_subBtn {
+	margin: 30px 0 0 90px;
+	outline-style: none;
+	font-size: 18px;
+	color: #fff;
+	background: #fd9933;
+	height: 50px;
+	line-height: 48px;
+	width: 602px;
+	border-radius: 3px;
+	display: block;
+	text-align: center;
+	border: 1px solid #fd9933;
+}
+
+.usedcars_subBtn:hover {
+	text-decoration: none;
+	background: #ff8d03;
+	border: 1px solid #ff8d03;
+}
+
+
+/*提交旧车信息e*/
+
+
+/*为什么要置换卖车s*/
+
+.selling_cars {
+	margin-bottom: 60px;
+	padding: 30px 0 0 0;
+	width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.selling_cars_list {
+	position: relative;
+	width: 25%;
+}
+
+.selling_cars_list em {
+	width: 100px;
+	height: 101px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 7px;
+	background: url(../../images/Change/zhmc_bg.gif) no-repeat;
+}
+
+.selling_cars_list>.bg1 {
+	background-position: left top;
+}
+
+.selling_cars_list>.bg2 {
+	background-position: -104px top;
+}
+
+.selling_cars_list>.bg3 {
+	background-position: -207px top;
+}
+
+.selling_cars_list>.bg4 {
+	background-position: -313px top;
+}
+
+.selling_cars_list strong {
+	line-height: 34px;
+	font-size: 18px;
+	display: block;
+	color: #686868;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+}
+
+.selling_cars_list p {
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 14px;
+	color: #999;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+/*为什么要置换卖车e*/
+
+
+/*准新车推荐s*/
+
+.NewCar_recommendation_graph {
+	float: right;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.NewCar_recommendation_graph  #NewCar_rec_raph{
+	color: #000;
+	font-size: 14px;
+}
+.NewCar_rec_raphB{
+ display: block;	
+}
+.NewCar_rec_raphN{
+ display: none;	
+}
+
+.NewCar_recommendation {
+	width: 1210px;
+	margin-bottom: 60px;
+	display: flex;
+}
+
+.NewCar_recommendation_lis {
+	padding: 30px 40px 0 0;
+	width: 25%;
+	overflow: hidden;
+}
+
+.NewCar_recommendation_lis>a {
+	text-decoration: none;
+}
+
+.NewCar_recommendation_lis img {
+	max-width: 100%;
+	height: auto;
+}
+
+.NewCar_recommendation_lis h3 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	height: 23px;
+	line-height: 23px;
+	margin-bottom: 11px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.NewCar_recommendation_lis h3>a {
+	outline-style: none;
+	color: #394043;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.NewCar_recommendation_lis .car_price {
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+
+.NewCar_recommendation_lis .car_price span {
+	color: #d4160a;
+	font-size: 18px;
+}
+
+.NewCar_recommendation_lis>p {
+	font-size: 14px;
+	color: #999;
+}
+
+.NewCar_recommendation_lis>p i {
+	margin-right: 5px;
+	font-style: normal;
+}
+
+.NewCar_recommendation_lis a:hover {
+	color: #FF6402;
+}
+
+
+/*准新车推荐e*/

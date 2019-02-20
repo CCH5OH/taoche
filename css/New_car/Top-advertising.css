@@ -1,0 +1,306 @@
+.Top_advertising {
+	display: flex;
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+	top: -60px;
+	background: #FFFFFF;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+
+/*品牌s*/
+
+.brand {
+	width: 370px;
+	margin-right: 15px;
+}
+
+.brand .brand_title_trigger {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 700;
+	color: #2f3540;
+	margin-bottom: 8px;
+	width: 50px;
+	height: 23px;
+	border: 1px solid #fff;
+	padding: 30px 32px 17px 30px;
+	position: relative;
+	left: -30px;
+	top: -35px;
+	z-index: 100;
+}
+
+
+
+.brand .brand_title_all {
+	display: none ;
+	position: absolute;
+	z-index: 10;
+	top: 70px;
+	left: 0;
+	right: 0;
+	padding: 30px 0 20px;
+	border: 1px solid #ff6402;
+	background: #fff;
+	font-size: 14px;
+	line-height: 22px;
+	color: #2f3540;
+	font-weight: 400;
+}
+.brand_title_all .brand_all_list {
+	float: left;
+	width: 370px;
+	padding-left: 24px;
+	padding-right: 5px;
+}
+
+.brand_title_all .brand_all_list li:after {
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+
+.brand_all_list li .brand_initials {
+	float: left;
+	width: 30px;
+	color: #ff6402;
+}
+
+.brand_all_list li .brand_list {
+	float: left;
+	width: 340px;
+}
+
+.brand_all_list li .brand_list a {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	color: #2f3540;
+}
+.brand_all_list li .brand_list a:hover {
+	color: #ff6402;
+}
+
+.brand .brand_title_trigger i {
+	background: url(../../images/Fairys/UpAndrLower.png) no-repeat top;
+	display: inline-block;
+	width: 12px;
+	height: 6px;
+	margin-left: 6px;
+}	
+.brand .brand_ico {
+	display: flex;
+	flex-wrap: wrap;
+	width: 350px;
+	height: 148px;
+	position: relative;
+	left: -40px;
+	top: -48px;
+}
+
+.brand .brand_ico li {
+	width: 70px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 22px;
+	color: #2f3540;
+	margin-bottom: 16px;
+}
+
+.brand .brand_ico li a {
+	font-size: 14px;
+	line-height: 22px;
+	color: #2f3540;
+}
+
+.brand .brand_ico li a:hover {
+	color: #ff6402;
+}
+
+.brand .brand_ico img {
+	width: 40px;
+	height: 40px;
+	margin: 0 10px 6px;
+}
+
+
+/*品牌e*/
+
+
+/*价格s*/
+
+.price {
+	width: 272px;
+}
+
+.price .price_title {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 700;
+	color: #2f3540;
+	margin-bottom: 31px;
+	margin-top: 20px;
+}
+
+.price ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.price ul li {
+	width: 80px;
+	margin-bottom: 20px;
+}
+
+.price ul li a {
+	color: #2f3540;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.price ul li a:hover {
+	color: #ff6402;
+}
+
+
+/*价格e*/
+
+
+/*级别s*/
+
+.level {
+	width: 327px;
+	height: 200px;
+	border-right: 1px solid #e5e5e5;
+}
+
+.level .level_title {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 700;
+	color: #2f3540;
+	margin-bottom: 31px;
+	margin-top: 20px;
+}
+
+.level .level_title a {
+	float: right;
+	font-size: 12px;
+	padding-right: 12px;
+	background: url(../../images/Fairys/Right.png) no-repeat right 6px;
+	margin-right: 40px;
+}
+
+.level .level_title a:hover {
+	color: #ff6402;
+	background-position: right -24px;
+}
+
+.level .level_Car {
+	display: flex;
+	flex-wrap: wrap;
+	height: 162px;
+}
+
+.level .level_Car li {
+	width: 90px;
+	margin-right: 16px;
+	margin-bottom: 6px;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.level .level_Car li a {
+	display: block;
+	padding-top: 6px;
+	color: #2f3540;
+}
+
+.level .level_Car li a:hover {
+	color: #ff6402;
+}
+
+.level .level_car {
+	display: block;
+	width: 90px;
+	height: 50px;
+	background: url(../../images/Fairys/fairys_Top_advertising_01.jpg) no-repeat 0 0;
+}
+
+.level .level_car_1 {
+	background-position: 0 0;
+}
+
+.level .level_car_2 {
+	background-position: 0 -50px;
+}
+
+.level .level_car_3 {
+	background-position: 0 -100px;
+}
+
+.level .level_car_4 {
+	background-position: 0 -150px;
+}
+
+.level .level_car_5 {
+	background-position: 0 -200px;
+}
+
+.level .level_car_6 {
+	background-position: 0 -250px;
+}
+
+
+/*级别e*/
+
+
+/*体验店s*/
+
+.experience {
+	width: 160px;
+	padding-left: 40px;
+	background: url(../../images/Experience/tiyandian-1.jpg) no-repeat center 80px;
+}
+
+.experience h3 {
+	line-height: 22px;
+	position: relative;
+	left: -20px;
+	font-weight: 700;
+	font-size: 16px;
+	color: #ff6402;
+	margin-bottom: 6px;
+}
+
+.experience p {
+	line-height: 22px;
+	position: relative;
+	left: -20px;
+	font-size: 12px;
+	color: #686868;
+}
+
+.experience .experience_btn {
+	display: block;
+	margin-top: 115px;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	background-color: #ff6402;
+	color: #fff;
+	font-size: 14px;
+}
+
+
+/*体验店e*/

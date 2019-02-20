@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/tab.js" type="text/javascript" charset="utf-8"></script>
+    <title>Title</title>
+</head>
+<body>
+    <div class="all">	
+        <script>
+            $(function () {
+                $(".homepage").mousemove(function () {
+                    $(".homepage img").attr("src",$(this).attr("img2"));
+                })
+                $(".homepage").mouseout(function () {
+                    $(".homepage img").attr("src",$(this).attr("img1"))
+                })
+                $(".xl_s").each(function () {
+                   $(this).mousemove(function () {
+                       $(this).find(".xl_img").attr("src",$(this).attr("img2"))
+                       $(this).find(".xjh").attr("src","images/upArrow2.svg")
+                   })
+                    $(this).mouseout(function () {
+                        $(this).find(".xl_img").attr("src",$(this).attr("img1"))
+                        $(this).find(".xjh").attr("src","images/downArrow1.svg")
+                    })
+                })
+                $(".second_search li").each(function () {
+                    $(this).click(function () {
+                        $(".second_search li").each(function (i) {
+                            $(this).removeClass("type1");
+                            $(this).addClass("wz1");
+                        })
+                    $(this).addClass("type1");
+                    })
+                })
+            })
+        </script>
+
+        <div class="top">
+            <div class="content">
+                <div class="homepage" img1="images/homePage1.svg" img2="images/homePage2.svg">
+                    <img src="images/homePage1.svg" class="homepage_image">
+                    <a href="">淘车首页</a>
+                </div>
+                <ul class="homepage_uu">
+                    <li>
+                        <a>欢迎来到淘车</a>
+                        <a class="wz1" id="dll">登录</a>
+                    </li>
+                    <li class="xl_s" img1="images/mine1.svg" img2="images/mine2.svg">
+                        <ul>
+                            <li>
+                                <img src="images/mine1.svg" class="xl_img">
+                                <a href="" class="xl_a">我的淘车</a>
+                                <img src="images/downArrow1.svg" class="xjh">
+                            </li>
+                            <li class="homepage_xl"><a href="">二手车订单</a> </li>
+                            <li class="homepage_xl"><a href="">新车订单</a></li>
+                            <li class="homepage_xl"><a href="">二手车服务</a> </li>
+                            <li class="homepage_xl"><a href="">免费发车</a></li>
+                        </ul>
+                    </li>
+                    <li class="xl_s" img1="images/seller1.svg" img2="images/seller2.svg">
+                        <ul>
+                            <li>
+                                <img src="images/seller1.svg" class="xl_img">
+                                <a href="" class="xl_a">我是商家</a>
+                                <img src="images/downArrow1.svg" class="xjh">
+                            </li>
+                            <li class="homepage_xl"><a href="">商家登录</a> </li>
+                            <li class="homepage_xl"><a href="">商家发车</a></li>
+                        </ul>
+                    </li>
+                    <li class="xl_s" img1="images/appDownload1.svg" img2="images/appDownload2.svg">
+                        <ul>
+                            <li>
+                                <img src="images/appDownload1.svg" class="xl_img">
+                                <a href="" class="xl_a">App下载</a>
+                                <img src="images/downArrow1.svg" class="xjh">
+                            </li>
+                            <li class="homepage_xl"><a href="">淘车</a> </li>
+                            <li class="homepage_xl"><a href="">淘宝二手车</a></li>
+                        </ul>
+                    </li>
+                    <li class="homepage_wzr">
+                        <img src="images/phone.svg" class="phone">
+                        <span class="wzr wz1">1010028</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="second">
+            <div class="content">
+                <img src="images/taoche-logo.svg">
+                <div class="second-address">
+                    <span class="second-address-wz">广州</span>
+                    <img src="images/downArrow1.svg">
+                    <div class="citylist">
+                        <div class="citylist_zzz">
+                            <div class="citylist_zz">
+                                <span class="citylist_jt">◇</span>
+                            </div>
+                        </div>
+                        <ul class="citylist_top">
+                            <li class="wz1">热门</li>
+                            <li>全国</li>
+                            <li>北京</li>
+                            <li>上海</li>
+                            <li>宁波</li>
+                            <li>广州</li>
+                            <li>深圳</li>
+                            <li>成都</li>
+                            <li>沈阳</li>
+                            <li>西安</li>
+                            <li>郑州</li>
+                            <li>武汉</li>
+                            <li>杭州</li>
+                        </ul>
+                        <ul class="citylist_top">
+                            <li class="wz1">周边</li>
+                            <li>佛山</li>
+                            <li>东莞</li>
+                            <li>清远</li>
+                            <li>中山</li>
+                            <li>江门</li>
+                        </ul>
+                        <hr>
+                        <div class="citylist_sf">省份</div>
+                        <ul class="citylist_zm">
+                            <li>A</li>
+                            <li>B</li>
+                            <li>C</li>
+                            <li>F</li>
+                            <li>G</li>
+                            <li>H</li>
+                            <li>J</li>                            
+                            <li>L</li>                           
+                            <li>N</li>                           
+                            <li>Q</li>
+                            <li>S</li>
+                            <li>T</li>                  
+                            <li>X</li>
+                            <li>Y</li>
+                            <li>Z</li>
+                        </ul>
+                        <div class="citylist_bottomzm">G</div>
+                        <div class="citylist_bottomzm2">广东</div>
+                        <ul class="citylist_bottom">        
+                            <li>广州</li>
+                            <li>深圳</li>
+                            <li>珠海</li>
+                            <li>东莞</li>
+                            <li>中山</li>
+                            <li>汕头</li>                            
+                            <li>潮州</li>                           
+                            <li>韶关</li>                           
+                            <li>湛江</li>
+                            <li>肇庆</li>
+                            <li>茂名</li>                  
+                            <li>梅州</li>
+                            <li>佛山</li>
+                            <li>惠州</li>
+                            <li>江门</li>
+                            <li>揭阳</li>
+                            <li>清远</li>
+                            <li>云浮</li>
+                            <li>阳江</li>
+                            <li>河源</li>
+                            <li>汕尾</li>
+                        </ul>
+                        <div class="citylist_bottomzm2">广西</div>
+                        <ul class="citylist_bottom">        
+                            <li>南宁</li>
+                            <li>崇左</li>
+                            <li>柳州</li>
+                            <li>来宾</li>
+                            <li>桂林</li>
+                            <li>梧州</li>                            
+                            <li>贺州</li>                           
+                            <li>玉林</li>                           
+                            <li>贵港</li>
+                            <li>百色</li>
+                            <li>钦州</li>                  
+                            <li>河池</li>
+                            <li>北海</li>
+                            <li>防城港</li>
+                        </ul>
+                        <div class="citylist_bottomzm2">贵州</div>
+                        <ul class="citylist_bottom">        
+                            <li>贵阳</li>
+                            <li>遵义</li>
+                            <li>六盘水</li>
+                            <li>安顺</li>
+                            <li>毕节</li>
+                            <li>铜仁</li>                            
+                            <li>黔东南</li>                           
+                            <li>黔南</li>                           
+                            <li>黔西南</li>
+                        </ul>
+                        <div class="citylist_bottomzm2">甘肃</div>
+                        <ul class="citylist_bottom">        
+                            <li>兰州</li>
+                            <li>嘉峪关</li>
+                            <li>金昌</li>
+                            <li>白银</li>
+                            <li>天水</li>
+                            <li>酒泉</li>                            
+                            <li>张掖</li>                           
+                            <li>武威</li>                           
+                            <li>定西</li>
+                            <li>陇南</li>
+                            <li>平凉</li>
+                            <li>庆阳</li>
+                            <li>宁夏</li>
+                            <li>甘南</li>
+                        </ul>
+                        <div class="citylist_bottomzm" style="height:20px ">H</div>
+                        <div class="citylist_bottomzm2">河北</div>
+                        <ul class="citylist_bottom">        
+                            <li>石家庄</li>
+                            <li>唐山</li>
+                            <li>秦皇岛</li>
+                            <li>邯郸</li>
+                            <li>邢台</li>
+                            <li>保定</li>                            
+                            <li>张家口</li>                           
+                            <li>承德</li>                           
+                            <li>沧州</li>                           
+                            <li>廊坊</li>                           
+                            <li>衡水</li>                           
+                        </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="second_search">
+                    <ul>
+                        <li class="type1">二手车</li>
+                        <li class="wz1">新车</li>
+                    </ul>
+                    <input type="text" placeholder="搜“德国车”试试" class="second_search_content">
+
+                </div>
+                <div class="search_button">
+                    <img src="images/second_search.svg" class="second_search_icon">
+                    搜索
+                </div>
+                <button class="sell_button">卖车</button>
+            </div>
+        </div>
+        <div class="tab" id="tabb">
+            <div class="content">
+                <ul>
+                    <li><span>首页</span></li>
+                    <li><span>买车</span></li>
+                    <li><span>卖车</span></li>
+                    <li><span>估价</span></li>
+                    <li><span>置换</span></li>
+                    <li><span>分期</span></li>
+                    <li><span>新车</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function(){
+        	var p=$("#login_tel_yz");
+        	var index=1;
+            $("#login_span1").click(function(){
+            	p.css("visibility","hidden");
+                $("#telNum").css("borderColor","#e5e5e5");
+                $("#telNum").val("");
+                $(this).css("color","#FF6402")
+                $("#login_span2").css("color","#777777")
+                $("#identify").css("display","block");
+                $("#getIdentify").css("display","block");
+                $("#login_password").css("display","none");
+                $("#idNum").css("display","none");
+                $("#login_image").css("display","none");
+                $("#loginNow").css("backgroundColor","#FFC199");
+                index=1;
+            })
+            $("#login_span2").click(function(){
+            	p.css("visibility","hidden");
+                $("#telNum").css("borderColor","#e5e5e5");
+                $("#telNum").val("");
+                $(this).css("color","#FF6402")
+                $("#login_span1").css("color","#777777")
+                $("#identify").css("display","none");
+                $("#getIdentify").css("display","none");
+                $("#login_password").css("display","block");
+                $("#idNum").css("display","block");
+                $("#login_image").css("display","block");
+                $("#loginNow").css("backgroundColor","#FFC199");
+                $("#login_password").css("marginTop","5px");
+                index=2;
+            })
+            var tel=/^[1][3-9][0-9]{9}$/;
+            $("#telNum").blur(function(){
+                if(tel.test($(this).val())){
+                    p.css("visibility","hidden");
+                    $(this).css("borderColor","#e5e5e5");
+                }
+                else{
+                    p.css("visibility","visible");
+                    $(this).css("borderColor","red");
+                } 
+            })
+             $("#identify").keyup(function(){
+             	b();
+             })
+             $("#login_password").keyup(function(){
+             	a();
+             })
+             $("#idNum").keyup(function(){
+             	a();
+             })
+            $("#telNum").keyup(function(){
+            	if($(this).val()==""){
+            		$(this).css("borderColor","#e5e5e5");
+            		p.css("visibility","hidden");
+            	}
+            	if(index==1){
+                	b();
+                }
+                if(index==2){
+                	a();
+                }
+            })
+            function a(){
+            	if($("#telNum").val()!='' && $("#login_password").val()!='' && $("#idNum").val()!=''){
+                	$("#loginNow").css("backgroundColor","#FF6402");
+                }else{
+                	$("#loginNow").css("backgroundColor","#FFC199");
+                }
+            }
+            function b(){
+            	if($("#telNum").val()!='' && $("#identify").val()!=''){
+                	$("#loginNow").css("backgroundColor","#FF6402");
+                }
+                else{
+                	$("#loginNow").css("backgroundColor","#FFC199");
+                }
+            }
+            $("#login_a2").click(function(){
+                $("#login_span1").css("display","none");
+                $("#login_span2").css("display","none");
+                $("#login_span3").css("display","block");
+                $("#login_span4").css("display","block");
+                if(index==1){
+                	$("#login_password").css("display","block");
+                    $("#login_password").css("marginTop","67px");
+                    index==3;
+                    return false;
+                }
+               if(index==2){
+               	    $("#identify").css("display","none");
+                    $("#getIdentify").css("marginTop","67px");
+                    $("#login_password").css("display","none");
+                    index==3;
+                    return false;
+                }
+            })
+            $("#login_dd").click(function(){
+            	$("#login_password").css("display","none");
+            	$("#login_span1").css("display","block");
+                $("#login_span2").css("display","block");
+                $("#login_span3").css("display","none");
+                $("#login_span4").css("display","none");
+                return false;
+            })
+        })
+    </script>
+    <div class="login_content">
+        <div class="login_main clearfix">
+           <div class="login_main_cs">
+            <span id="login_span1">手机快捷登录</span>
+            <span id="login_span2">账号密码登录</span>
+            <span id="login_span3">快速注册</span>
+            <span id="login_span4">已注册，可直接<a href="" class="wz1" id="login_dd">登录</a></span>
+
+            <input type="text" id="telNum" placeholder="请输入手机号">
+            <span id="login_tel_yz">请输入正确的手机号码</span>
+            <input type="text" id="identify" placeholder="请输入验证码">
+            <input type="button" id="getIdentify" value="获取验证码">
+
+            <input type="password" id="login_password" placeholder="请输入密码">
+            <input type="text" id="idNum" placeholder="请输入右侧验证码">
+            <img src="images/login_yzm.jpg" alt="" id="login_image" width="92px" height="42px">
+            <input type="checkbox" id="login_check"><a id="login_a1">自动登录</a>
+            <input type="submit" id="loginNow" value="立即登录">
+            <a href="" id="login_a2">免费注册</a>
+           </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <span>
+             经营许可证编号：京ICP备15006372号-5  CopyRight © 2015-2018 taoche.com版权所有
+         </span>
+    </div>
+</body>
+</html>
